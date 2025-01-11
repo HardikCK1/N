@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #fdfdfd;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #ffb6c1;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+main {
+    padding: 2em;
+}
+h1, h2 {
+    font-family: 'Georgia', serif;
+}
+section {
+    margin-bottom: 2em;
+}
+.milestone {
+    background: #fff0f5;
+    padding: 1em;
+    border-radius: 8px;
+    margin: 1em 0;
+}
+.gallery {
+    display: flex;
+    gap: 1em;
+}
+.gallery img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+button {
+    padding: 0.5em 1em;
+    background: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background: #ff1493;
+}
+footer {
+    text-align: center;
+    background: #ffb6c1;
+    color: white;
+    padding: 1em 0;
+}
